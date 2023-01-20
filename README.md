@@ -1,1 +1,1 @@
-# This is the R code used for mediation analysis and multiple imputation for missing variables in the study titled "Contribution of liver steatosis and obesity in the association between type 2 diabetes and cirrhosis: a mediation analysis"
+This is the R code used for mediation analysis and multiple imputation for missing variables in the study titled "Contribution of liver steatosis and obesity in the association between type 2 diabetes and cirrhosis: a mediation analysis"
