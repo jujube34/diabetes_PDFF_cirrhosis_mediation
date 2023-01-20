@@ -5,7 +5,7 @@ for i in `seq 1 10` # create 10 threads of same R program
 do
 RNDseed=$RANDOM # get random number for the seed of multiple imputation algorithm
 	echo $RNDseed
-	Rscript Rscript_MI.R $RNDseed $1 & # input 2 arguments: random seed and k (the offset) for sensitivity analysis
+	Rscript Multiple_imputation_code.R $RNDseed $1 & # input 2 arguments: random seed and k (the offset) for sensitivity analysis
 	PID[i]=$!
 done
 
